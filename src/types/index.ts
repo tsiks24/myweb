@@ -1,0 +1,23 @@
+export type Data ={
+    menu:{
+      name:string
+      href:string  
+    }[]
+    belt:{
+      name:string
+    }[]
+    serv:{
+      name:string
+      exerpt:string
+      src:string
+      desc:string
+    }[]
+    pricing:{
+       name:string
+       exerpt:string
+       point1:string
+       point2:string
+       point3:string
+       point4:string
+    }[]
+}
