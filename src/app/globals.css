@@ -228,3 +228,24 @@ body h4{
 
 
         
+.sleek-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  background-color: #1E1B23;
+}
+
+.sleek-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #9D97AA; 
+  border-radius: 0px;
+}
+
+.sleek-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #fff;
+} 
+
+
+/* Hide the cursor */
+.no-cursor,
+.no-cursor * {
+  cursor: none !important;
+}
